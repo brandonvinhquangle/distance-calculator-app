@@ -1,0 +1,35 @@
+# Ignore Docker & system files
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Byte-compiled / cache
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+
+# Virtual environments
+env/
+venv/
+backend/env/
+
+# Docker volumes
+postgres_data/
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Node & React build files
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/.next/
+
+# MacOS/Windows/Linux system files
+.DS_Store
+Thumbs.db
